@@ -29,7 +29,7 @@ const navigations = [
     name: "KONTAKT",
     href: "/contact",
     classes:
-      "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
+      "text-black text-base p-2 font-Josefin hover:bg-gray-100 hover:underline curser-pointer"
   }
 ];
 
@@ -45,7 +45,7 @@ function Navbar() {
           className={classes("hidden sm:flex items-center md:space-x-4 mb-1")}
         >
           <Link href="/">
-            <a className="mr-20 text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer">
+            <a className="mr-20 text-black text-base font-Josefin p-2 hover:bg-gray-100 hover:underline curser-pointer">
               BARKTRADGARD.SE
             </a>
           </Link>
@@ -74,9 +74,7 @@ function Navbar() {
         >
           {navigations.map((item) => (
             <Link key={item.href} href={item.href} passHref>
-              <span className="block mt-1">
                 <a className={classes(item.classes)}>{item.name}</a>
-              </span>
             </Link>
           ))}
         </div>
