@@ -13,18 +13,18 @@ const navigations = [
   //   classes:
   //     "text-black text-base font-Josefin px-4 hover:bg-gray-200 hover:rounded curser-pointer",
   // },
-  {
-    name: "TRÄDGÅRDSPROJEKT",
-    href: "/myaccount",
-    classes:
-      "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
-  },
-  {
-    name: "TJÄNSTER",
-    href: "/fund",
-    classes:
-      "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
-  },
+  // {
+  //   name: "TRÄDGÅRDSPROJEKT",
+  //   href: "/myaccount",
+  //   classes:
+  //     "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
+  // },
+  // {
+  //   name: "TJÄNSTER",
+  //   href: "/fund",
+  //   classes:
+  //     "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
+  // },
   {
     name: "KONTAKT",
     href: "/login",
@@ -46,7 +46,7 @@ function Navbar() {
         >
           <Link href="/">
             <a className="mr-20 text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer">
-              BARK.SE
+              BARKTRADGARD.SE
             </a>
           </Link>
           {navigations.map((item) => (
@@ -55,14 +55,14 @@ function Navbar() {
             </Link>
           ))}
         </div>
+      </div>
 
-        <div className="sm:hidden mt-2 mb-2">
-          {open ? (
-            <XIcon onClick={toggleMenu} className="block w-10 h-10" />
-          ) : (
-            <MenuIcon onClick={toggleMenu} className="block h-10 w-10" />
-          )}
-        </div>
+      <div className="sm:hidden mt-2 mb-2">
+        {open ? (
+          <XIcon onClick={toggleMenu} className="block w-10 h-10" />
+        ) : (
+          <MenuIcon onClick={toggleMenu} className="block h-10 w-10" />
+        )}
       </div>
 
       <div className="sm:hidden ">
@@ -81,6 +81,18 @@ function Navbar() {
           ))}
         </div>
       </div>
+      <a
+            href="https://www.instagram.com/"
+            target={"_blank"}
+            className="absolute px-4 lg:top-1 md:top-1 top-6 right-4 hover:bg-gray-100 hover:underline curser-pointer"
+          >
+            <Image
+              src={"/logos/instagram.png"}
+              width="30"
+              height="30"
+              alt="instagram symbol"
+            />
+          </a>
     </div>
   );
 }

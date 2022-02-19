@@ -89,7 +89,7 @@ function Footer() {
               BARK.SE
             </a>
           </Link>
-        <div>
+        {/* <div>
           {about.map((item) => (
             <Link key={item.id} href={item.href} passHref>
               <div className="mt-1">
@@ -97,7 +97,7 @@ function Footer() {
               </div>
             </Link>
           ))}
-        </div>
+        </div> */}
         <div>
           {business.map((item) => (
             <Link key={item.id} href={item.href} passHref>
