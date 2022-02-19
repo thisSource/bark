@@ -27,7 +27,7 @@ const navigations = [
   // },
   {
     name: "KONTAKT",
-    href: "/login",
+    href: "/contact",
     classes:
       "text-black text-base font-Josefin px-4 hover:bg-gray-100 hover:underline curser-pointer"
   }
