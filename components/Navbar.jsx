@@ -84,6 +84,7 @@ function Navbar() {
       <a
             href="https://www.instagram.com/"
             target={"_blank"}
+            rel="noreferrer"
             className="absolute px-4 lg:top-1 md:top-1 top-6 right-4 hover:bg-gray-100 hover:underline curser-pointer"
           >
             <Image
