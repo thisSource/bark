@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import ServiceCard from "../components/services/servicecard";
+import ServiceCard from "../components/services/ServiceCard";
 
 const service = [
   {
