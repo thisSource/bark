@@ -53,7 +53,7 @@ export default function Home() {
         />
       </div>
       <p className="absolute lg:top-1/2 top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-15xl text-10xl font-semi-bold text-white">BARK</p>
-      <p className="absolute bg-green-100 p-2 lg:top-3/4 top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-2xl text-base whitespace-normal font-semi-bold text-black">Trädgårdsarbete för privatpersoner, företag och offentlig verksamhet</p>
+      <p className="absolute bg-green-100 p-2 lg:top-3/4 top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-2xl text-base whitespace-normal font-semi-bold text-black text-center">Trädgårdsarbete för privatpersoner, företag och offentlig verksamhet</p>
       <div className="grid lg:grid-cols-2 gap-5 ml-10 mr-10 mt-10 mb-10">
           {service.map((campaign) => (
             <ServiceCard
