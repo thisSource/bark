@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function ServiceCard(company) {
   return (
-    <div className="bg-green-100 overflow-hidden font-Josefin text-gray-700 mb-10">
+    <div className="bg-[#bfcfb1] overflow-hidden font-Josefin text-gray-700 mb-10">
         <div className="flex flex-row justify-center">
             <Image
               src={company.image}

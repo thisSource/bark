@@ -6,25 +6,25 @@ const service = [
   {
     id: "1",
     company: "Planering och anläggning",
-    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It",
+    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
     image: "/images/shAsset 2@4x.png",
   },
   {
     id: "2",
     company: "Underhåll och skötsel",
-    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It",
+    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever",
     image: "/images/shAsset 4@4x.png",
   },
   {
     id: "3",
     company: "Beskärning och klippning",
-    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It",
+    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     image: "/images/shAsset 1@4x.png",
   },
   {
     id: "4",
-    company: "Trädgårdskonst",
-    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It",
+    company: "Konst",
+    offer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     image: "/images/shAsset 3@4x.png",
   },
 ];
@@ -53,7 +53,7 @@ export default function Home() {
         />
       </div>
       <p className="absolute lg:top-1/2 top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-15xl text-10xl font-semi-bold text-white">BARK</p>
-      <p className="absolute bg-green-100 p-2 lg:top-3/4 top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-2xl text-base whitespace-normal font-semi-bold text-black text-center">Trädgårdsarbete för privatpersoner, företag och offentlig verksamhet</p>
+      <p className="absolute bg-[#7f9c80] p-2 lg:top-3/4 top-80 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:text-2xl text-base whitespace-normal font-semi-bold text-black text-center">Trädgårdsarbete för privatpersoner, företag och offentlig verksamhet</p>
       <div className="grid lg:grid-cols-2 gap-5 ml-10 mr-10 mt-10 mb-10">
           {service.map((campaign) => (
             <ServiceCard
